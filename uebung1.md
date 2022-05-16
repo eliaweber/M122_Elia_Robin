@@ -26,7 +26,7 @@
   
 ***/run***
 - Dieser Ordner beherbergt Dateien von laufenden Prozessen. In diesem Ordner finden sich die meisten PID-Files (Process identifier).
-- 
+
 ***/sbin :: system binaries (dt. Systemprogramme)***
 - In diesem Ordner findet man Programm Binärdateien wieder, die Root-Rechte zum Ausführen benötigen.
   
