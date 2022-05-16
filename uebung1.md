@@ -2,8 +2,7 @@
 ## Von Robin und Elia
 
 ### Verzeichnis Linux
-Wichtige Verzeichnisse
-/
+- /
 Das Wurzelverzeichnis oder Stammverzeichnis genannte Verzeichnis ist die höchste Ebene der Verzeichnisstruktur. In diesem befinden sich alle Verzeichnisstrukturen des Betriebssystems einschließlich weiterer Speichermedien.
 /bin :: binaries (dt. Binärdateien/Programme)
 Die wichtigsten Kommandos (Programme) die von Betriebssystem gebraucht werden wie cp, echo, mkdir oder rm befinden sich in diesem Verzeichnis. Sie haben alle gemeinsam, dass sie Binärdateien sind und von allen Benutzern ausgeführt werden dürfen. (/sbin nur fürs System/root)
