@@ -27,5 +27,4 @@ Das Script ausführen
 
 Die Konsole gibt nun den Text nach echo aus
 
-```“Das ist mein erstes Script“
-```
+``` “Das ist mein erstes Script“```
