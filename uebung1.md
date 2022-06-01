@@ -55,8 +55,5 @@
 - In diesem Ordner sind variable Daten wie Logfiles, Mails oder auch Druckerspooler verortet. Es wird primär verwendet, auch nach der Einführung von /srv.
 ***
 
-Test
-
-Test
 
 
