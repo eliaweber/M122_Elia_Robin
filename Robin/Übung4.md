@@ -1,0 +1,1 @@
+https://gitlab.com/ch-tbz-it/Stud/m122/-/tree/main/03_Bash_Ueb
