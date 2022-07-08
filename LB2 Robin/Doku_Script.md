@@ -63,4 +63,5 @@ elif [ $Zahl -gt 0 ]; then
 
 9. Mit diesem Befehl wird das If/elif statement beendet. 
 10. Nun wird das script mit ./ ausgeführt.
+
 fi
