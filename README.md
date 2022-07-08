@@ -23,8 +23,8 @@ Unser Repository ist folgendermassen aufgebaut.
 - [Übung 2](/LB1/uebung2.md)
 
 ### LB2
-- [Bilder](/LB2/Bilder/)
-  - [Miroboard](/LB2/Bilder/Miroboard_M122.PNG)
-  - [UML](/LB2/Bilder/UML.PNG)
-- [Unser Script](/LB2/Script.md)
-- [Befehle](/LB2/Befehle.md)
+- [Bilder](/LB2%20Robin/Bilder/)
+  - [Miroboard](/LB2%20Robin/Bilder/Miroboard_M122.PNG)
+  - [UML](/LB2%20Robin/Bilder/UML.PNG)
+- [Mein Script](/LB2%20Robin/Script.md)
+- [Befehle](/LB2%20Robin/Befehle.md)
