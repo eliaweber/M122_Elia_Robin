@@ -1,19 +1,19 @@
-#### Das # am Anfang der Zeile bedeutet, dass diese Zeile ein Kommentar ist. Die Zeile wird also nicht ausgeführt. Das "#!" zusammen nennt sich Shebang oder Magic Line. Unter Unix-Systemen gibt man damit an, dass das Skript mit dem angegebenen Programm beziehungsweise Interpreter (in diesem Fall "/bin/bash") aufgerufen werden soll. Statt "/bin/bash" sind auch noch andere Aufrufe wie "/bin/sh" oder "/bin/dash" möglich, um das Skript mit einem anderen Interpreter auszuführen (der dann andere Funktionen unterstützen kann), aber das würde hier wohl zu weit gehen.
+1. Das # am Anfang der Zeile bedeutet, dass diese Zeile ein Kommentar ist. Die Zeile wird also nicht ausgeführt. Das "#!" zusammen nennt sich Shebang oder Magic Line. Unter Unix-Systemen gibt man damit an, dass das Skript mit dem angegebenen Programm beziehungsweise Interpreter (in diesem Fall "/bin/bash") aufgerufen werden soll. Statt "/bin/bash" sind auch noch andere Aufrufe wie "/bin/sh" oder "/bin/dash" möglich, um das Skript mit einem anderen Interpreter auszuführen (der dann andere Funktionen unterstützen kann), aber das würde hier wohl zu weit gehen.
    
 #! /bin/bash
 
 
-#### In diesem Schritt werden die Daten bezogen. Mit dem Befehl curl wird dies surchgespielt. Der Befehl curl ermöglicht es Ihnen, Daten über die Befehlszeile unter Linux herunterzuladen und hochzuladen. In dem nächsten Schritt wird nur diese Zeile "ausgewählt",welche ein "C" hat (Temp). Zuletzt wird diese Zeile nochmals zugeschnitten und in das wetter.txt abgespeichert. 
+2. In diesem Schritt werden die Daten bezogen. Mit dem Befehl curl wird dies surchgespielt. Der Befehl curl ermöglicht es Ihnen, Daten über die Befehlszeile unter Linux herunterzuladen und hochzuladen. In dem nächsten Schritt wird nur diese Zeile "ausgewählt",welche ein "C" hat (Temp). Zuletzt wird diese Zeile nochmals zugeschnitten und in das wetter.txt abgespeichert. 
    
 curl wttr.in/rapperswil?n1 |  grep "°C" | head -n 1 >wetter.txt
 
 
-#### Hier wird definiert man, dass man nur die Beiden Zahlen nach dem "m" haben will. Zuerst greift man auf wetter.txt zu und dann speichert man die neue Ausgabe in wetter2.txt ab. 
+3. Hier wird definiert man, dass man nur die Beiden Zahlen nach dem "m" haben will. Zuerst greift man auf wetter.txt zu und dann speichert man die neue Ausgabe in wetter2.txt ab. 
    
 grep -o "[m][0-9][0-9]" wetter.txt >wetter2.txt
 
 
-1. Nun geht es weiter mit dem ausschneiden. Mit dem nächsten Befehl, definiert man, dass man nur die Zahlen von 1-9 haben will und diese exportiert man dann in wetter2.txt. Nun haben wir mit dem wetter2.txt file nur noch die Tempratur in Zahlen. 
+4. Nun geht es weiter mit dem ausschneiden. Mit dem nächsten Befehl, definiert man, dass man nur die Zahlen von 1-9 haben will und diese exportiert man dann in wetter2.txt. Nun haben wir mit dem wetter2.txt file nur noch die Tempratur in Zahlen. 
    
 Zahl=$(grep -o "[0-9][0-9]" wetter2.txt)
 
