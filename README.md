@@ -28,3 +28,4 @@ Unser Repository ist folgendermassen aufgebaut.
   - [UML](/LB2%20Robin/Bilder/UML.PNG)
 - [Mein Script](/LB2%20Robin/Script.md)
 - [Befehle](/LB2%20Robin/Befehle.md)
+- [Meine Dokumentation](/LB2%20Robin/Doku_Script.md)
